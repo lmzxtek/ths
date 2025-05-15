@@ -9,7 +9,7 @@ func TestAdd(t *testing.T) {
 	if Add(10, -5) != 5 { // Test case 2
 		t.Error("Add(10, -5) should be 5")
 	}
-} // Test case 3
+}
 
 func TestAdd2(t *testing.T) {
 	if Add(2, 3) != 5 {
